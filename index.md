@@ -26,7 +26,6 @@ WebGPU を用いて，ブラウザ上で動作するリアルタイム流体シ�
     - **80lv** : [Check Out This Real-Time 3D Fluid Simulation Implemented In WebGPU](https://80.lv/articles/check-out-this-real-time-3d-fluid-simulation-implemented-in-webgpu)
     - **CGWorld** : [ブラウザ内で10万パーティクル規模の流体シミュレーションを実現！　matsuoka-601氏が手がけたWebGPUによるMLS-MPM実装](https://cgworld.jp/flashnews/202501-matsuoka-601-LiquidSim.html)
     - **3D人** : [WebGPU Ocean - WebGPUを使用しブラウザ上でリアルタイム流体を描画！Githubリポジトリも公開中！](https://3dnchu.com/archives/webgpu-ocean/)
-    - **WebGPU Experts** : [The Best of WebGPU in January 2025](https://www.webgpuexperts.com/best-webgpu-updates-january-2025)
     
 ### WaterBall
 <blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">Deployed a new real-time fluid simulation - &quot;waterball&quot;! <br><br>Interact with the water on a sphere🌏. <br><br>demo : <a href="https://t.co/HLyL5OtTwQ">https://t.co/HLyL5OtTwQ</a><br>repo : <a href="https://t.co/RKji8V6IbG">https://t.co/RKji8V6IbG</a><br><br>The demo runs smoothly even on my 6-year-old iPad! (see the reply) <a href="https://t.co/qCC9Pj1Uqw">pic.twitter.com/qCC9Pj1Uqw</a></p>&mdash; matsuoka-601 (@matsuoka_601) <a href="https://twitter.com/matsuoka_601/status/1886294037499695274?ref_src=twsrc%5Etfw">February 3, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
