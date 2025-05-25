@@ -44,7 +44,7 @@ WebGPU-Ocean をさらに発展させた流体シミュレーションです．2
 - **解説記事** : [Splash: A Real-Time Fluid Simulation in Browsers Implemented in WebGPU](https://www.reddit.com/r/GraphicsProgramming/comments/1jh3pd2/splash_a_realtime_fluid_simulation_in_browsers/)
 
 ### Wasm-Slime
-![](https://raw.githubusercontent.com/matsuoka-601/Wasm-Slime/refs/heads/main/img/demo.gif)
+<img src="https://raw.githubusercontent.com/matsuoka-601/Wasm-Slime/refs/heads/main/img/demo.gif">
 
 Rust + wasm-bindgen-rayon を用いて，ブラウザ上で動作する並列流体シミュレーションを実装しました．マルチスレッドによる並列化により，シングルスレッドだけで達成するのが困難なスケールのシミュレーションを実現しました．
 - **デモ** : [Wasm-Slime](https://fluid-simulation-test.netlify.app/)
@@ -53,7 +53,7 @@ Rust + wasm-bindgen-rayon を用いて，ブラウザ上で動作する並列流
 
 ### Coupling of fluid & softbody simulation (WIP)
 
-![](/assets/imgs/buoyancy.gif)
+<img src="assets/imgs/buoyancy.gif">
 
 Position Based Dynamics という手法を用いて，流体とソフトボディを融合したシミュレーションを実装することに挑戦しています．
 ## Articles
