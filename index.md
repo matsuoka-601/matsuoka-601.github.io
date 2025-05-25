@@ -4,6 +4,8 @@ author_profile: true
 quick_start: false
 toc: true
 toc_sticky: true
+title: ""               # ← ページタイトルを空に
+render_title: false     # ← レイアウトでのタイトル出力を抑制
 ---
 
 ## About me
@@ -70,7 +72,7 @@ Position Based Dynamics という手法を用いて，流体とソフトボデ�
 
 ### [Splash: A Real-Time Fluid Simulation in Browsers Implemented in WebGPU](https://www.reddit.com/r/GraphicsProgramming/comments/1jh3pd2/splash_a_realtime_fluid_simulation_in_browsers/)
 
-作品の 1 つである [Splash](https://www.reddit.com/r/GraphicsProgramming/comments/1jh3pd2/splash_a_realtime_fluid_simulation_in_browsers/) を紹介するために，英語掲示板である reddit に書いた記事です．1400 以上の upvote をいただき，[r/GraphicsProgramming というサブレディットの中で歴代 5 番目に注目された記事](https://www.reddit.com/r/GraphicsProgramming/top/?t=all)となっています（2025/05/25 現在）．
+作品の 1 つである [Splash](https://github.com/matsuoka-601/Splash) を紹介するために，英語掲示板である reddit に書いた記事です．1400 以上の upvote をいただき，[r/GraphicsProgramming というサブレディットの中で歴代 5 番目に注目された記事](https://www.reddit.com/r/GraphicsProgramming/top/?t=all)となっています（2025/05/25 現在）．
 
 <blockquote class="reddit-embed-bq" style="height:500px" data-embed-height="584"><a href="https://www.reddit.com/r/GraphicsProgramming/comments/1jh3pd2/splash_a_realtime_fluid_simulation_in_browsers/">Splash: A Real-Time Fluid Simulation in Browsers Implemented in WebGPU</a><br> by<a href="https://www.reddit.com/user/matsuoka-601/">u/matsuoka-601</a> in<a href="https://www.reddit.com/r/GraphicsProgramming/">GraphicsProgramming</a></blockquote><script async="" src="https://embed.reddit.com/widgets.js" charset="UTF-8"></script>
 
