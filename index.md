@@ -4,9 +4,7 @@ author_profile: true
 quick_start: false
 toc: true
 toc_sticky: true
-
-header:
-  show_title: false
+title: ""
 ---
 ## About me
 hello
