@@ -4,10 +4,10 @@ author_profile: true
 quick_start: false
 toc: true
 toc_sticky: true
-title: ""               # ← ページタイトルを空に
-render_title: false     # ← レイアウトでのタイトル出力を抑制
----
 
+header:
+  show_title: false
+---
 ## About me
 hello
 ## Works
