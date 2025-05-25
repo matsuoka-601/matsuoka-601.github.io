@@ -14,6 +14,7 @@ toc_sticky: true
 <blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">WebGPU で実装した，MLS-MPM による流体シミュレーションをデプロイしました．ブラウザ上で動きます．SPH よりもかなり高速です．/ A MLS-MPM fluid simulation in WebGPU has been deployed! <br>demo : <a href="https://t.co/Dm8QTxo6gO">https://t.co/Dm8QTxo6gO</a><br>repo : <a href="https://t.co/X0I484K4i5">https://t.co/X0I484K4i5</a> <a href="https://t.co/wW1Gn3pXEo">pic.twitter.com/wW1Gn3pXEo</a></p>&mdash; matsuoka-601 (@matsuoka_601) <a href="https://twitter.com/matsuoka_601/status/1877570211013902497?ref_src=twsrc%5Etfw">January 10, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 WebGPU を用いて，ブラウザ上で動作するリアルタイム流体シミュレーションを実装しました．シミュレーションは，2018 年に Hu らによって提案された MLS-MPM という新しい手法を，GPGPU で並列化したものを用いています．ブラウザ上で動作する流体シミュレーションとしては，自分が知る限りでは現時点で最大クラスの規模のものです．
+
 - **デモ** : [WebGPU-Ocean](https://webgpu-ocean.netlify.app/)
 - **GitHub** : [WebGPU-Ocean](https://github.com/matsuoka-601/WebGPU-Ocean)
 - **解説記事** : [WebGPU で MLS-MPM を実装し，ブラウザ上で 10 万粒子規模のリアルタイムシミュレーションを実現する](https://zenn.dev/sparkle/articles/3eb1225f891a87)
@@ -22,7 +23,7 @@ WebGPU を用いて，ブラウザ上で動作するリアルタイム流体シ�
     - [CGWorld]()
     - [3D人]()
     - [WebGPU Experts]()
-
+    
 ### WaterBall
 <blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">Deployed a new real-time fluid simulation - &quot;waterball&quot;! <br><br>Interact with the water on a sphere🌏. <br><br>demo : <a href="https://t.co/HLyL5OtTwQ">https://t.co/HLyL5OtTwQ</a><br>repo : <a href="https://t.co/RKji8V6IbG">https://t.co/RKji8V6IbG</a><br><br>The demo runs smoothly even on my 6-year-old iPad! (see the reply) <a href="https://t.co/qCC9Pj1Uqw">pic.twitter.com/qCC9Pj1Uqw</a></p>&mdash; matsuoka-601 (@matsuoka_601) <a href="https://twitter.com/matsuoka_601/status/1886294037499695274?ref_src=twsrc%5Etfw">February 3, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -43,12 +44,17 @@ WebGPU-Ocean をさらに発展させた流体シミュレーションです．2
 - **解説記事** : [Splash: A Real-Time Fluid Simulation in Browsers Implemented in WebGPU](https://www.reddit.com/r/GraphicsProgramming/comments/1jh3pd2/splash_a_realtime_fluid_simulation_in_browsers/)
 
 ### Wasm-Slime
+![](https://raw.githubusercontent.com/matsuoka-601/Wasm-Slime/refs/heads/main/img/demo.gif)
+
 Rust + wasm-bindgen-rayon を用いて，ブラウザ上で動作する並列流体シミュレーションを実装しました．マルチスレッドによる並列化により，シングルスレッドだけで達成するのが困難なスケールのシミュレーションを実現しました．
 - **デモ** : [Wasm-Slime](https://fluid-simulation-test.netlify.app/)
 - **GitHub** : [Wasm-Slime](https://github.com/matsuoka-601/wasm-slime)
 - **解説記事** : [ブラウザ上でヌルヌル動作する流体シミュレーションを Rust + wasm-bindgen-rayon で実装する](https://zenn.dev/sparkle/articles/8f9fb109c0d5aa)
 
 ### Coupling of fluid & softbody simulation (WIP)
+
+![](assets/imgs/buoyancy.gif    )
+
 Position Based Dynamics という手法を用いて，流体とソフトボディを融合したシミュレーションを実装することに挑戦しています．
 ## Articles
 作った作品に関する技術の発信を，英語・日本語を問わず行っています．
