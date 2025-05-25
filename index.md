@@ -89,7 +89,7 @@ WGSL のコンピュートシェーダーを用いて，GPGPU を用いた，ブ
 - [Splash](https://github.com/matsuoka-601/Splash)
 - [WaterBall](https://github.com/matsuoka-601/WaterBall)
 
-WebGL では難しかった GPGPU 最適化の中には，WebGPU のコンピュートシェーダーのおかげで書きやすくなっているものも多くあり，WebGPU には大きな可能性を感じています．
+WebGL では難しかった GPGPU 最適化の中には，WebGPU のコンピュートシェーダーのおかげで書きやすくなっているものが多くあります．そのため，将来的には，WebGPU によってブラウザ上でできることの幅が大きく広がりうると予想しています．
 
 ### SIMD を用いた高速化
 プログラムの高速化のコンペティションサイトである [highload.fun](https://highload.fun/) に趣味で参加しています．AVX2 という SIMD の命令セットを用いて，プログラムを極限まで高速化することに挑戦しています．以下が成績の一部です（いずれも 2025/05/25 時点）．
