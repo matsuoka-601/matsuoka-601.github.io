@@ -53,7 +53,7 @@ Rust + wasm-bindgen-rayon を用いて，ブラウザ上で動作する並列流
 
 ### Coupling of fluid & softbody simulation (WIP)
 
-![](assets/imgs/buoyancy.gif    )
+![](/assets/imgs/buoyancy.gif)
 
 Position Based Dynamics という手法を用いて，流体とソフトボディを融合したシミュレーションを実装することに挑戦しています．
 ## Articles
