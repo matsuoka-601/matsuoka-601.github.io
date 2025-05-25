@@ -7,7 +7,11 @@ toc_sticky: true
 title: ""
 ---
 ## About me
-hello
+GPGPU で並列化した大規模シミュレーションや，リアルタイムレンダリングを実装することが好きです．特に，それらをブラウザ上で実現することにこだわりがあります．最近では，WebGPU のコンピュートシェーダーを用いて，ブラウザ上で動作する GPGPU 並列化したシミュレーションを実装することに取り組んできました (See [Works](#works)!)．
+
+また，作品を作るために用いた技術について記事を執筆し，発信することも好きです (See [Articles](#articles)!)．[X](https://x.com/matsuoka_601) で実装の途中過程も随時発信しているので，よろしければご覧ください．
+
+実装したプロジェクトのソースコードは，すべて [GitHub](https://github.com/matsuoka-601) で公開しています．
 ## Works
 以下のデモはすべてブラウザ上で動作します（一部のデモは WebGPU 対応が必要です）．
 ### WebGPU-Ocean
@@ -19,10 +23,10 @@ WebGPU を用いて，ブラウザ上で動作するリアルタイム流体シ�
 - **GitHub** : [WebGPU-Ocean](https://github.com/matsuoka-601/WebGPU-Ocean)
 - **解説記事** : [WebGPU で MLS-MPM を実装し，ブラウザ上で 10 万粒子規模のリアルタイムシミュレーションを実現する](https://zenn.dev/sparkle/articles/3eb1225f891a87)
 - CG 関連の外部サイトにも掲載していただきました．
-    - [80lv]()
-    - [CGWorld]()
-    - [3D人]()
-    - [WebGPU Experts]()
+    - **80lv** : [Check Out This Real-Time 3D Fluid Simulation Implemented In WebGPU](https://80.lv/articles/check-out-this-real-time-3d-fluid-simulation-implemented-in-webgpu)
+    - **CGWorld** : [ブラウザ内で10万パーティクル規模の流体シミュレーションを実現！　matsuoka-601氏が手がけたWebGPUによるMLS-MPM実装](https://cgworld.jp/flashnews/202501-matsuoka-601-LiquidSim.html)
+    - **3D人** : [WebGPU Ocean - WebGPUを使用しブラウザ上でリアルタイム流体を描画！Githubリポジトリも公開中！](https://3dnchu.com/archives/webgpu-ocean/)
+    - **WebGPU Experts** : [The Best of WebGPU in January 2025](https://www.webgpuexperts.com/best-webgpu-updates-january-2025)
     
 ### WaterBall
 <blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">Deployed a new real-time fluid simulation - &quot;waterball&quot;! <br><br>Interact with the water on a sphere🌏. <br><br>demo : <a href="https://t.co/HLyL5OtTwQ">https://t.co/HLyL5OtTwQ</a><br>repo : <a href="https://t.co/RKji8V6IbG">https://t.co/RKji8V6IbG</a><br><br>The demo runs smoothly even on my 6-year-old iPad! (see the reply) <a href="https://t.co/qCC9Pj1Uqw">pic.twitter.com/qCC9Pj1Uqw</a></p>&mdash; matsuoka-601 (@matsuoka_601) <a href="https://twitter.com/matsuoka_601/status/1886294037499695274?ref_src=twsrc%5Etfw">February 3, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -32,8 +36,9 @@ WebGPU を用いて，ブラウザ上で動作するリアルタイム流体シ�
 - **デモ** : [WaterBall](https://waterball.netlify.app/)
 - **GitHub** : [WaterBall](https://github.com/matsuoka-601)
 - CG 関連の外部サイトにも掲載していただきました．
-    - [WebGPU Experts](https://www.webgpuexperts.com/best-webgpu-updates-february-2025)
-    - [80lv](https://80.lv/articles/control-this-water-sphere-fluid-simulation-directly-in-your-browser)
+    - **80lv** : [Control This Water Sphere Fluid Simulation Directly In Your Browser](https://80.lv/articles/control-this-water-sphere-fluid-simulation-directly-in-your-browser)
+    - **WebGPU Experts** : [The Best of WebGPU in February 2025](https://www.webgpuexperts.com/best-webgpu-updates-february-2025)
+
 
 ### Splash
 <blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">Deployed a new fluid simulation - &quot;Splash&quot;! <br>- Cleaner fluid surface thanks to Narrow-Range Filter<br>- Shadows using ray marching (particles mode only)<br>- More interaction (see the video)<br><br>Enjoy!<br><br>demo: <a href="https://t.co/F00L9XiD7b">https://t.co/F00L9XiD7b</a><br>repo: <a href="https://t.co/Zqxy4QDnAc">https://t.co/Zqxy4QDnAc</a> <a href="https://t.co/tqv8WTcIfw">pic.twitter.com/tqv8WTcIfw</a></p>&mdash; matsuoka-601 (@matsuoka_601) <a href="https://twitter.com/matsuoka_601/status/1902990065737011336?ref_src=twsrc%5Etfw">March 21, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -51,7 +56,7 @@ Rust + wasm-bindgen-rayon を用いて，ブラウザ上で動作する並列流
 - **GitHub** : [Wasm-Slime](https://github.com/matsuoka-601/wasm-slime)
 - **解説記事** : [ブラウザ上でヌルヌル動作する流体シミュレーションを Rust + wasm-bindgen-rayon で実装する](https://zenn.dev/sparkle/articles/8f9fb109c0d5aa)
 
-### Coupling of fluid & softbody simulation (WIP)
+### Coupling fluid & softbody simulation (WIP)
 
 <img src="assets/imgs/buoyancy.gif">
 

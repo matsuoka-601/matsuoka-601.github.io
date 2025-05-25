@@ -117,11 +117,8 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Love real-time simulation and rendering. "
   location         : "Tokyo"
-  email            :
+  email            : "kokoro601@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/matsuoka-601"
@@ -131,8 +128,6 @@ author:
     - label: "Zenn"
       icon: "fas fa-fw fa-link"
       url: "https://zenn.dev/sparkle"
-
-
 # Site Footer
 footer:
   links:
