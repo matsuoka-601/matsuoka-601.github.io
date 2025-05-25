@@ -9,7 +9,7 @@ render_title: false     # ← レイアウトでのタイトル出力を抑制
 ---
 
 ## About me
-
+hello
 ## Works
 以下のデモはすべてブラウザ上で動作します（一部のデモは WebGPU 対応が必要です）．
 ### WebGPU-Ocean
